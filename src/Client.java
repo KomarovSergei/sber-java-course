@@ -10,5 +10,11 @@ public class Client extends Person {
     this.document = document;
   }
 
+  @Override
+  public String toString() {
+    return "Client: " + this.name
+            + ", birthday: " + this.birthday;
+  }
+
   public Client() {}
 }
