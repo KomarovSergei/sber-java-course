@@ -1,3 +1,5 @@
+package general;
+
 import static com.sun.tools.doclint.Entity.lang;
 
 public enum Currency {

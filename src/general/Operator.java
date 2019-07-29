@@ -1,3 +1,5 @@
+package general;
+
 public class Operator extends Person{
   private String vsp;
 
@@ -8,6 +10,10 @@ public class Operator extends Person{
 
   public ConvertionRequest createRequest(Person person, Money from, Currency to, double fromRate, double toRate) {
     return new ConvertionRequest(from, to, fromRate, toRate);
+  }
+
+  public Request createRequestToConvert(){
+    return new Request();
   }
 
   public static Double getCurrencyRate(Currency curIn, Currency curOut) {

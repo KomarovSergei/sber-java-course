@@ -1,3 +1,5 @@
+package general;
+
 import java.util.Date;
 
 public class Client extends Person {
@@ -16,5 +18,5 @@ public class Client extends Person {
             + ", birthday: " + this.birthday;
   }
 
-  public Client() {}
+//  public Client() {}
 }

@@ -1,3 +1,5 @@
+package general;
+
 public class ConvertionRequest {
     public Money money;
     public Currency currency;

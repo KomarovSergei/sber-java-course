@@ -1,3 +1,5 @@
+package general;
+
 public class ConvertData {
     private Client client;
     private Money money;

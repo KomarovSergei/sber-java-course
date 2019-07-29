@@ -1,3 +1,5 @@
+package general;
+
 public class ConvertionResult {
     private Money fromMoney;
     private Money toMoney;

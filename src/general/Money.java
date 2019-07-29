@@ -1,8 +1,12 @@
+package general;
+
+import general.Currency;
+
 public class Money {
     private Currency currency;
-    private int amount;
+    private double amount;
 
-    public Money(Currency currency, int amount) {
+    public Money(Currency currency, double amount) {
         this.currency = currency;
         this.amount = amount;
     }
@@ -17,7 +21,7 @@ public class Money {
         return currency;
     }
 
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
 
